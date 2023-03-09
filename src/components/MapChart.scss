@@ -1,0 +1,34 @@
+.map-container {
+  background-color: rgba(4, 0, 0, 0.94);
+  position: relative;
+  h1 {
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 40%;
+    background-color: transparent;
+  }
+  .rsm-svg {
+    height: 960px;
+    width: 100%;
+  }
+
+  .branches-list-container {
+    background-color: transparent;
+    position: absolute;
+    bottom: 5%;
+    color: rgb(124, 126, 128);
+    li {
+      cursor: pointer;
+      :focus {
+        cursor: none;
+      }
+    }
+  }
+}
+
+.graticule {
+  path {
+    fill: #8b8686;
+  }
+}
