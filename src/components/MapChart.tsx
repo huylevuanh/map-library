@@ -57,7 +57,7 @@ const MapChart = () => {
             transitionDuration: "0.5s",
           }}
         >
-          <Geographies geography="src/components/features1.json">
+          <Geographies geography="features1.json">
             {({ geographies }) =>
               geographies.map((geo) => (
                 <Geography
